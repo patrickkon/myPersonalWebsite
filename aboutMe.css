@@ -1,0 +1,11 @@
+.section-about-me {
+  display: flex;
+}
+
+.section-about-me-intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 100%;
+  font-size: 2rem;
+}

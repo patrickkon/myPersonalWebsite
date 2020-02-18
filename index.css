@@ -10,6 +10,14 @@ html {
   padding: 0;
 }
 
+img {
+  /* Respect aspect ratio */
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
 body > *:not(:first-child) {
   padding-bottom: 15%;
 }
@@ -94,6 +102,26 @@ body > *:not(:first-child) {
 .section-paragraphs-container {
   padding-bottom: 3.5%;
   font-size: 0.8em;
+}
+
+.section3 img {
+  /* Noticed an orientation problem */
+  transform: rotate(180deg);
+}
+
+.image-extension {
+  margin-top: -7%;
+}
+
+.image-extension > :first-child {
+  width: 600px;
+  height: 452px;
+  flex-basis: 70%;
+  padding-left: 0;
+}
+
+.image-extension > :not(:first-child) {
+  padding-top: 5%;
 }
 
 /* a {
