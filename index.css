@@ -25,20 +25,28 @@ body > *:not(:first-child) {
   z-index: 9999;
   background-color: rgb(249, 247, 244);
   top: 0; /* required to fix it on the top! */
+  left: 0;
   /* box-shadow: rgba(0, 0, 0, 0.06) 0px 3px 10px 0px; */
   /*   transform: translateX(-5%); */
 }
 
 .top-section > :first-child {
   flex-basis: 85%;
+  padding-left: 5%;
 }
 
 .top-section > :not(:first-child) {
-  flex-basis: 15%;
+  flex-basis: 20%;
+  padding-right: 5%;
+  display: flex;
 }
 
 .top-section .social-wrap > * {
   padding-left: 5%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  flex-basis: 20%;
+  margin-right: 10%;
 }
 
 .hero-section {
@@ -58,25 +66,34 @@ body > *:not(:first-child) {
 }
 
 .left {
-  flex-basis: 40%;
+  flex-basis: 50%;
   padding-right: 7%;
+  padding-left: 5%;
 }
 
 .right {
-  flex-basis: 60%;
+  flex-basis: 50%;
   padding-right: 10%;
+}
+
+.section-text {
   color: rgb(59, 59, 59);
 }
 
-.right p {
+.section-text p {
   font-weight: 100;
-  padding-top: 4%;
-  padding-bottom: 4%;
+  /* padding-top: 4%;
+  padding-bottom: 4%; */
   color: rgb(97, 97, 97);
 }
 
-.right h3 {
+.section-text h3 {
   font-weight: 500;
+}
+
+.section-paragraphs-container {
+  padding-bottom: 3.5%;
+  font-size: 0.8em;
 }
 
 /* a {
