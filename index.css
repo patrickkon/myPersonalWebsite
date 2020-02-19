@@ -104,7 +104,7 @@ body > *:not(:first-child) {
   font-size: 0.8em;
 }
 
-.section3 img {
+.section3 .right img {
   /* Noticed an orientation problem */
   transform: rotate(180deg);
 }

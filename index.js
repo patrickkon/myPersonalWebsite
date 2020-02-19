@@ -41,6 +41,11 @@ function myScrollFunc() {
   for (let index = 0; index < section3.children.length; index++) {
     this.toggleScrollVisibility(section3.children[index], 900);
   }
+
+  const imageExtension = document.querySelector(".image-extension");
+  for (let index = 0; index < imageExtension.children.length; index++) {
+    this.toggleScrollVisibility(imageExtension.children[index], 1300);
+  }
 }
 
 window.addEventListener("scroll", myScrollFunc);
