@@ -7,6 +7,7 @@
     <title>Patrick Kon's personal website</title>
     <link rel="stylesheet" href="./index.css" />
     <link rel="stylesheet" href="./aboutMe.css" />
+    <link rel="stylesheet" href="./slider.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap"
       rel="stylesheet"
@@ -19,7 +20,7 @@
   <body>
     <div class="top-section">
       <div>
-        <p>Patrick Kon - Made from Scratch</p>
+        <p>Patrick Kon - Made from scratch</p>
       </div>
       <div class="social-wrap">
         <a
@@ -152,6 +153,145 @@ L16.07,16.946z"
       </div>
     </section>
 
+    <section class="sectionSlider">
+      <div class="swiper-slider-image-container">
+        <div class="swiper-slider-image" id="swiper-slider-image-1"></div>
+        <div class="swiper-slider-image" id="swiper-slider-image-2"></div>
+        <div class="swiper-slider-image" id="swiper-slider-image-3"></div>
+        <div class="swiper-slider-image" id="swiper-slider-image-4"></div>
+        <div class="swiper-slider-image" id="swiper-slider-image-5"></div>
+      </div>
+
+      <div class="swiper-slider-nav">
+        <div
+          class="swiper-pagination-bullet"
+          id="swiper-pagination-bullet-1"
+          tabindex="0"
+          role="button"
+          aria-label="Go to slide 5"
+        >
+          1<span class="my-svg"
+            ><svg
+              viewBox="0 0 34 34"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <circle class="circle-1" cx="17" cy="17" r="16"></circle>
+              <circle
+                id="circle-2-1"
+                class="circle-2"
+                cx="17"
+                cy="17"
+                r="16"
+              ></circle>
+            </svg>
+          </span>
+        </div>
+
+        <div
+          class="swiper-pagination-bullet"
+          id="swiper-pagination-bullet-2"
+          tabindex="0"
+          role="button"
+          aria-label="Go to slide 5"
+        >
+          2<span class="my-svg"
+            ><svg
+              viewBox="0 0 34 34"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <circle class="circle-1" cx="17" cy="17" r="16"></circle>
+              <circle
+                id="circle-2-2"
+                class="circle-2"
+                cx="17"
+                cy="17"
+                r="16"
+              ></circle>
+            </svg>
+          </span>
+        </div>
+        <div
+          class="swiper-pagination-bullet"
+          tabindex="0"
+          role="button"
+          aria-label="Go to slide 5"
+          id="swiper-pagination-bullet-3"
+        >
+          3<span class="my-svg"
+            ><svg
+              viewBox="0 0 34 34"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <circle class="circle-1" cx="17" cy="17" r="16"></circle>
+              <circle
+                id="circle-2-3"
+                class="circle-2"
+                cx="17"
+                cy="17"
+                r="16"
+              ></circle>
+            </svg>
+          </span>
+        </div>
+        <div
+          class="swiper-pagination-bullet"
+          id="swiper-pagination-bullet-4"
+          tabindex="0"
+          role="button"
+          aria-label="Go to slide 5"
+        >
+          4<span class="my-svg"
+            ><svg
+              viewBox="0 0 34 34"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <circle class="circle-1" cx="17" cy="17" r="16"></circle>
+              <circle
+                id="circle-2-4"
+                class="circle-2"
+                cx="17"
+                cy="17"
+                r="16"
+              ></circle>
+            </svg>
+          </span>
+        </div>
+        <div
+          class="swiper-pagination-bullet"
+          id="swiper-pagination-bullet-5"
+          tabindex="0"
+          role="button"
+          aria-label="Go to slide 5"
+        >
+          5<span class="my-svg"
+            ><svg
+              viewBox="0 0 34 34"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <circle class="circle-1" cx="17" cy="17" r="16"></circle>
+              <circle
+                id="circle-2-5"
+                class="circle-2"
+                cx="17"
+                cy="17"
+                r="16"
+              ></circle>
+            </svg>
+          </span>
+        </div>
+      </div>
+    </section>
+
     <section class="section3" id="section3">
       <div class="left section-text">
         <h2>Instrumentation Design</h2>
@@ -215,7 +355,8 @@ L16.07,16.946z"
         <p>A little bit about me.</p>
       </div>
     </section>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.2/gsap.min.js"></script>
     <script src="./index.js"></script>
+    <script src="./slider.js"></script>
   </body>
 </html>
