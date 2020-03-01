@@ -72,6 +72,7 @@
   position: relative;
   /*  transition: all 0.2s ease-in-out; */
   cursor: pointer;
+  outline: none;
 
   color: rgba(32, 32, 32, 0.25);
 }

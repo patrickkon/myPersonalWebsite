@@ -49,3 +49,15 @@ function myScrollFunc() {
 }
 
 window.addEventListener("scroll", myScrollFunc);
+
+// fix image orientation bug on chrome:
+// by selectively applying css:
+
+var isNotChrome = !!window.chrome && !!window.chrome.webstore;
+
+if (!isNotChrome) {
+  const images = document.querySelectorAll(".section3 .right img");
+  for (let i = 0; i < images.length; i++) {
+    images[i].style.transform = "rotate(180deg)";
+  }
+}
